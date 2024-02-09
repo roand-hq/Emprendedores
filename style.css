@@ -16,12 +16,12 @@ header #mayor-list {
     justify-content: space-around;
 }
 
-header #mayor-list li {
+header #mayor-list > li {
     display: inline-block;
     
 }
 
-header #mayor-list li>a {
+header #mayor-list > li > a {
     display: block;
     padding: 15px 20px;
     color: #00CECB;
@@ -29,7 +29,7 @@ header #mayor-list li>a {
     text-decoration: none;
 }
 
-header #mayor-list li>a:hover {
+header #mayor-list  li>a:hover {
     color: #FF5E5B;
     transition: all .4s;
 }
@@ -49,5 +49,6 @@ header #mayor-list li ul >li a {
 }
 header #mayor-list li:hover > ul {
     display: block;
-    transition: all .4s;
+    flex-direction: column;
+    transition: all .4s; 
 }
