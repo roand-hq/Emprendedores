@@ -1,0 +1,53 @@
+.slide-text {
+    height: 100%;
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    font-size: 30px;
+    padding-right: 20px;
+}
+.datos {
+    overflow: hidden;
+}
+ul, .slide-text {
+    list-style: none;
+}
+ul {
+    width: 180px;
+    height: 70px;
+    position: relative;
+    animation: slide 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+}
+.slide {
+    position: absolute;
+    height: 70px;
+    top:200%;
+    line-height: 70px;
+    font-size: 50px;
+}
+.slide:first-child{
+    top:100%;
+}
+.slide:last-child{
+    top:300%;
+}
+@keyframes slide {
+     0%{
+        transform: translateY(0);
+     }
+     15%, 30%{
+        transform: translateY(-100%);
+     }
+     45%, 60%{
+        transform: translateY(-200%);
+     }
+     75%, 90%{
+        transform: translateY(-300%);
+     }
+     100%{
+        transform: translateY(-400%);
+     }
+}
