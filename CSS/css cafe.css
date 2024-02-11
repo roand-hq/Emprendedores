@@ -13,7 +13,7 @@ header {
     padding:4px;
     width:98%;
     height: 200px;
-    background: url(https://historyblog538930756.files.wordpress.com/2020/12/destacada-cafe-sv.jpg?w=640);
+    background: url(../imagery/header.png);
     background-size: 100%;
     color:white;
     justify-content: center;
@@ -211,7 +211,7 @@ overflow: hidden;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
 }
-.persona1, .persona2, .persona3, .persona4, .persona5 {
+.persona1, .persona2, .persona3, .persona4, .persona5, .persona6, .persona7, .persona8, .persona9, .persona10{
 width: 30%;
 margin: 20px;
 font-family: Georgia, 'Times New Roman', Times, serif;
