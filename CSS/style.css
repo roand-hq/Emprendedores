@@ -3,7 +3,7 @@
     padding:0;
 }
 body {
-    background-color: #C2C5AA;
+    background-color: #222222;
 }
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -22,7 +22,7 @@ header {
 nav {
     width:98%;
     margin:10px;
-    background: #656D4A;
+    background: #333333;
     display: flex;
     justify-content: space-around;
 }
@@ -41,12 +41,12 @@ list-style: none;
     text-decoration: none;
     display: block;
     padding: 10px;
-    color:#a4ac86;
+    color:#4a81ee;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .menu li a:hover {
- color:#414833;
- background-color: #c2c5aa;
+ color:#2b9ee0;
+ background-color: #555555;
  transition:all .4s;
 }
 .submenu {
@@ -96,65 +96,12 @@ list-style: none;
     border: 3px inset #414833;
     border-radius: 10px;
 }
-footer {
-    color: white;
-    width: 100%;
-    background: #656D4A;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.slide-text {
-    height: 100%;
-    font-family: poppins;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 h2 {
     font-size: 30px;
     padding-right: 20px;
 }
-.datos {
-    overflow: hidden;
-}
-.carrusel, .texto-carrusel {
-    list-style: none;
-}
-.carrusel {
-    width: 1000px;
-    height: 70px;
-    position: relative;
-    animation: slide 20s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
-}
-.texto-carrusel {
-    position: absolute;
-    height: 70px;
-    top:200%;
-    line-height: 100px;
-    font-size: 20px;
-}
-.texto-carrusel:first-child{
-    top:100%;
-}
-.texto-carrusel:last-child{
-    top: 300%;
-}
-@keyframes slide {
-     0%{
-        transform: translateY(0);
-     }
-     15%, 30%{
-        transform: translateY(-100%);
-     }
-     45%, 60%{
-        transform: translateY(-200%);
-     }
-     75%, 90%{
-        transform: translateY(-300%);
-     }
-     100%{
-        transform: translateY(-400%);
-     }
-}
+
 .history {
     display: flex;
     width: 70%;
@@ -164,38 +111,7 @@ h2 {
     border-radius: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.slider-frame{
-width: 450px;
-height: auto;
-overflow: hidden;
-}
-.slider-frame> ul {
-    margin: 10px auto 0;
-    display: flex;
-    padding:0;
-    width: 400%;
-    animation: carrusel_img 20s infinite alternate ease-in-out;
-}
-.slider-frame >li {
-    list-style: none;
-    width: 100%;
-}
-.slider-frame >img{
-    width: 100%;
-}
-@keyframes carrusel_img {
-    0% { margin-left: 0%;}
-    20% { margin-left: 0%;}
 
-    25% { margin-left: -100%;}
-    45% { margin-left: -100%;}
-
-    50% { margin-left: -200%;}
-    70% { margin-left: -200%;}
-
-    75% { margin-left: -300%;}
-    100% { margin-left: -300%;}
-}
 .ashistoria {
     margin:5px;
     padding:7px;
@@ -211,10 +127,11 @@ overflow: hidden;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
 }
-.persona1, .persona2, .persona3, .persona4, .persona5, .persona6, .persona7, .persona8, .persona9, .persona10{
+.emprendedor{
 width: 30%;
 margin: 20px;
 font-family: Georgia, 'Times New Roman', Times, serif;
+color: white;
 }
 .centro_personas {
     width: 100%;
