@@ -71,17 +71,3 @@ h2 {
     font-size: 30px;
     padding-right: 20px;
 }
-
-
-.emprendedor{
-width: 30%;
-margin: 20px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-color: white;
-}
-.centro_personas {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}

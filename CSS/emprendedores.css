@@ -1,15 +1,6 @@
-#centro {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-}
-
-.empresa {
-    width: calc(33.33% - 40px); 
-    max-width: 300px; 
+.emprendedor {
+    width: calc(33.33% - 40px);
+    max-width: 300px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -23,32 +14,40 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.empresa img {
+.emprendedor img {
     width: 80%;
     height: auto;
     margin-bottom: 10px;
 }
 
-.empresa h2 {
+.emprendedor h2 {
     text-align: center;
     font-size: 1.2em;
     margin-bottom: 10px;
 }
 
-.empresa p {
+.emprendedor p {
     font-size: 0.9em;
     text-align: justify;
 }
 
+.centro_personas {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
 @media (max-width: 768px) {
-    .empresa {
+    .emprendedor {
         width: calc(50% - 40px);
     }
 }
 
-
 @media (max-width: 480px) {
-    .empresa {
-        width: calc(100% - 40px); 
+    .emprendedor {
+        width: calc(100% - 40px);
     }
 }
