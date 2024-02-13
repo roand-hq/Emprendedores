@@ -1,0 +1,40 @@
+#centro {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.empresa {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    background-color: #888888;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.empresa img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.empresa h2 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.empresa p {
+    font-size: 0.9em;
+    text-align: justify;
+}

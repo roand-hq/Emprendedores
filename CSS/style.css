@@ -20,7 +20,7 @@ header {
     align-items: center;
 }
 nav {
-    width:98%;
+    width:98.5%;
     margin:10px;
     background: #333333;
     display: flex;
@@ -67,66 +67,12 @@ list-style: none;
  visibility: visible;
  opacity: 1;
 }
-.centro {
-    display: flex;
-    margin:10px;
-}
-.definicion {
-    margin:5px;
-    padding:7px;
-    width: 70%;
-    height: 600px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    flex-wrap: wrap;
-    border:3px outset #414833;
-    border-radius: 10px;
-
-}
-.centro aside h2{
-    color:#a4ac86;
-    text-align: center;
-}
-.centro aside {
-    margin:5px;
-    padding:7px;
-    width: 30%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #7f4f24;
-    color:#c2c5aa;
-    border: 3px inset #414833;
-    border-radius: 10px;
-}
-
 h2 {
     font-size: 30px;
     padding-right: 20px;
 }
 
-.history {
-    display: flex;
-    width: 70%;
-    flex-wrap:wrap;
-    justify-content: center;
-    border:3px outset #414833;
-    border-radius: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
-.ashistoria {
-    margin:5px;
-    padding:7px;
-    width: 30%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #7f4f24;
-    color:#c2c5aa;
-    border: 3px inset #414833;
-    border-radius: 10px;
-    height: 80%;
-}
-.nosotros {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
-}
 .emprendedor{
 width: 30%;
 margin: 20px;
